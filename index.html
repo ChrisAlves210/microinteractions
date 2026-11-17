@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Small moments | Microinteractions</title>
+  <link rel="stylesheet" href="movement.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">A study in small details</p>
+    <h1>Small moments,<br>made meaningful.</h1>
+    <p class="intro">Three CSS-only interactions that make an interface feel a little more responsive, clear, and alive.</p>
+  </header>
+
+  <main class="grid">
+    <section class="panel" aria-labelledby="control-title">
+      <span class="number">01 / Feedback</span>
+      <h2 id="control-title">The responsive button</h2>
+      <p class="description">Hover, tab, and press to explore each state. The disabled example stays still.</p>
+      <div class="demo">
+        <button class="button" type="button">Try the button</button>
+        <button class="button secondary" type="button">Outlined</button>
+        <button class="button" type="button" disabled>Disabled</button>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="card-title">
+      <span class="number">02 / Orientation</span>
+      <h2 id="card-title">The guiding arrow</h2>
+      <p class="description">Hover anywhere over the card or focus the link to guide the arrow forward.</p>
+      <div class="demo">
+        <div class="card">
+          <a href="#motion">Explore the pulse</a>
+          <span class="arrow" aria-hidden="true">&rarr;</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="motion" aria-labelledby="motion-title">
+      <span class="number">03 / Attention</span>
+      <h2 id="motion-title">The quiet pulse</h2>
+      <p class="description">A soft, looping signal adds a moment of life without getting in the way.</p>
+      <div class="demo">
+        <div class="pulse">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <span>Motion study</span>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
